@@ -1,0 +1,39 @@
+@font-face {
+    font-family:buttermilk;
+    src: url(./Buttermilk.ttf);
+}
+body{
+    background-image: url(skyblue.jpg);
+    background-size: cover;
+     /* display: flex;
+    justify-content: center;
+    align-items: center;
+     */
+}
+.hero{
+    /* color: aliceblue;
+    font-family:buttermilk;
+    font-weight: bolder;
+    text-transform: capitalize; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.siddu img{
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-bottom:20px;
+}
+.hero pre{
+    color: aliceblue;
+    font-family:buttermilk;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+.hero{
+    padding-top:180px;
+}
